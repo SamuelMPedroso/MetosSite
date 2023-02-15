@@ -1,0 +1,59 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #1E90FF;
+    position: fixed;
+    padding: 1.5em;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 90px;
+}
+
+form {
+    border: 1px solid whitesmoke;
+    border-radius: 0.3em;
+    padding: 0.3em;
+}
+
+form input, form button {
+    font-size: 1.2em;
+    border-radius: 0.2em;
+    border: none;
+    padding: 0.2em;
+}
+
+form button {
+    cursor: pointer;
+    background: none;
+    color: whitesmoke;
+}
+
+form button:hover {
+    background-color: whitesmoke;
+    color: #1E90FF;
+}
+
+.PrevisaoDetalhes { 
+    background-color: grey;
+    position: relative;
+    top: 180px;
+    left: 10;
+    right: 10;
+    height: 250px;
+}
+
+.PrevResumo {
+    background-color: bisque;
+    position: relative;
+    display: inline-block;
+    top: 260px;
+    left: 100px;
+    height: 300px;
+    width: 300px;    
+}
